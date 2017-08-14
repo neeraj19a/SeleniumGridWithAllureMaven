@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" preserve-order="true">
+    <!--<listeners>
+        <listener class-nautilityFiles.RetryListenerener"/>
+    </listeners>
+    --><test name="Test">
+
+        <groups>
+            <run>
+                <exclude name="my"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.neerajProject.testCases.Test1"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

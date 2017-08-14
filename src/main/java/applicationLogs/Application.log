@@ -1,0 +1,26 @@
+2017-07-15 19:42:02-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:testCases.Test1
+  2017-07-15 19:42:03-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Executing class : testCases.Test1, test case number : 2
+  2017-07-15 19:42:03-pool-1-thread-1--INFO -testCases.Test1:Hi logging here
+  2017-07-15 19:42:03-pool-1-thread-1--ERROR-testCases.Test1:Hi logging here Error
+  2017-07-15 19:42:03-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Navigating to -->https://training.adobe.com/training/current-courses.html#p=1&country=India
+  2017-07-15 19:42:05-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:Hi logging here
+  2017-07-15 19:42:05-pool-1-thread-2--ERROR-com.neerajProject.pages.TestBase:Hi logging here Error
+  2017-07-15 19:42:05-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:Navigating to -->http://en.wikipedia.org/
+  2017-07-15 19:42:11-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+  2017-07-15 19:42:11-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:Printing Cookie
+  2017-07-15 19:42:12-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+  2017-07-15 19:42:13-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Navigating to -->http://facebook.com
+  2017-07-15 19:42:15-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+  2017-07-15 19:42:18-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Now hereRemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)
+  2017-07-15 19:42:19-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Clicking on Element-->[[RemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)] -> xpath: .//*[@id='email']]
+  2017-07-15 19:42:19-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Setting Text testidtvt@gmail.com for WebElement-->[[RemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)] -> xpath: .//*[@id='email']]
+  2017-07-15 19:42:20-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Driver in Home Page LibRemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)
+  2017-07-15 19:42:20-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Now hereRemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)
+  2017-07-15 19:42:20-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:In Facebook
+  2017-07-15 19:42:20-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Navigating to -->https://www.facebook.com/
+  2017-07-15 19:42:20-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+  2017-07-15 19:42:23-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Navigating to -->http://en.wikipedia.org/
+  2017-07-15 19:42:25-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+  2017-07-15 19:42:25-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Looking for HTML with locator -->#mp-itn b a
+  2017-07-15 19:42:25-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Clicking on Element-->[[RemoteWebDriver: firefox on WINDOWS (c22a445f-3ad5-47df-a021-03ed065e92a2)] -> xpath: //a[text()='Log in']]
+  

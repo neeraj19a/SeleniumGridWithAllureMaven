@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<PSA>
+    <PSAStage>
+        <TestData>
+            <firstname>Neeraj</firstname>
+            <lastname>Bakhtani</lastname>
+            <nickname>Neeraj</nickname>
+        </TestData>
+
+        <Milestone>
+            <name>MILESTONE PROFESSIONAL SVC FEE TBE - SW - Milestone</name>
+            <type>Billing</type>
+            <status>In Progress</status>
+            <actualdateMonths>2</actualdateMonths>
+            <amount>1000</amount>
+        </Milestone>
+
+        <Product>
+            <SKU>38051082</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+            <name>MILESTONE PROFESSIONAL SVC FEE TBE - SW</name>
+            <productType>Milestone SKU</productType>
+            <consultingHours>1</consultingHours>
+        </Product>
+
+        <Product1>
+            <SKU>38051061</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+            <name>BLENDED SW</name>
+            <type>Agnostic SKU</type>
+            <consultingHours>1</consultingHours>
+        </Product1>
+
+        <Product2>
+            <SKU>38050517</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+        </Product2>
+
+        <Product3>
+            <SKU>38049965</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>400</qty>
+            <proServiceName>CAMPAIGN</proServiceName>
+        </Product3>
+
+        <Product4>
+            <SKU>38052648</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <qty2>300</qty2>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>CAMPAIGN:A/B TESTING</name>
+            <type>NonAgnostic SKU</type>
+            <consultingHours>16</consultingHours>
+        </Product4>
+
+        <Product5>
+            <SKU>38051889</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>CONSULTING TRAVEL-BILLABLE-SW</name>
+            <type>Travel SKU</type>
+            <consultingHours>1</consultingHours>
+        </Product5>
+
+        <Product6>
+            <SKU>38050968</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>OFFSHORE BLENDED NS TBE</name>
+            <consultingHours>1</consultingHours>
+        </Product6>
+
+        <Product7>
+            <SKU>38048480</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>AEM</proServiceName>
+            <name>SR CONSULTANT SW TBE</name>
+            <consultingHours></consultingHours>
+            <qty>200</qty>
+        </Product7>
+
+        <Product7>
+            <SKU>38051051</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>SR CONSULTANT SW TBE</name>
+            <consultingHours></consultingHours>
+            <type>NonAgnostic SKU</type>
+        </Product7>
+
+        <Assignment>
+            <projectMgr>PSA Automation User</projectMgr>
+            <resourceName>Test Consultant</resourceName>
+            <role>Principal Consultant</role>
+            <consultingHours>16</consultingHours>
+        </Assignment>
+
+
+        <PartnerResource>
+            <resourceName>Bianca Menzel</resourceName>
+            <porNo1>POR-0003626</porNo1>
+            <porNo2>POR-0003627</porNo2>
+            <expenseType>Airfare</expenseType>
+            <currencyType>U.S. Dollar</currencyType>
+            <currencyTypeEuro>Euro</currencyTypeEuro>
+        </PartnerResource>
+
+    </PSAStage>
+
+    <PSAQA>
+        <TestData>
+            <firstname>Neeraj</firstname>
+            <lastname>Bakhtani</lastname>
+            <nickname>Neeraj</nickname>
+        </TestData>
+
+        <Milestone>
+            <name>MILESTONE PROFESSIONAL SVC FEE TBE - SW - Milestone</name>
+            <type>Billing</type>
+            <status>In Progress</status>
+            <actualdateMonths>2</actualdateMonths>
+            <amount>1000</amount>
+        </Milestone>
+
+        <Product>
+            <SKU>38051082</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+            <name>MILESTONE PROFESSIONAL SVC FEE TBE - SW</name>
+            <productType>Milestone SKU</productType>
+            <consultingHours>1</consultingHours>
+        </Product>
+
+        <Product1>
+            <SKU>38051061</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+            <name>BLENDED SW</name>
+            <type>Agnostic SKU</type>
+            <consultingHours>1</consultingHours>
+        </Product1>
+
+        <Product2>
+            <SKU>38050517</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>AEM</proServiceName>
+        </Product2>
+
+        <Product3>
+            <SKU>38049965</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>400</qty>
+            <proServiceName>CAMPAIGN</proServiceName>
+        </Product3>
+
+        <Product4>
+            <SKU>38052648</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <qty2>300</qty2>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>CAMPAIGN:A/B TESTING</name>
+            <type>NonAgnostic SKU</type>
+            <consultingHours>16</consultingHours>
+        </Product4>
+
+        <Product5>
+            <SKU>38051889</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <qty>200</qty>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>CONSULTING TRAVEL-BILLABLE-SW</name>
+            <type>Travel SKU</type>
+            <consultingHours>1</consultingHours>
+        </Product5>
+
+        <Product6>
+            <SKU>38050968</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>OFFSHORE BLENDED NS TBE</name>
+            <consultingHours>1</consultingHours>
+        </Product6>
+
+        <Product7>
+            <SKU>38048480</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>AEM</proServiceName>
+            <name>SR CONSULTANT SW TBE</name>
+            <consultingHours></consultingHours>
+            <qty>200</qty>
+        </Product7>
+
+        <Product7>
+            <SKU>38051051</SKU>
+            <PriceBookOption>Standard Price Book</PriceBookOption>
+            <proServiceName>CAMPAIGN</proServiceName>
+            <name>SR CONSULTANT SW TBE</name>
+            <consultingHours></consultingHours>
+            <type>NonAgnostic SKU</type>
+        </Product7>
+
+        <Assignment>
+            <projectMgr>PSA Automation User</projectMgr>
+            <resourceName>Test Consultant</resourceName>
+            <role>Principal Consultant</role>
+            <consultingHours>16</consultingHours>
+        </Assignment>
+
+        <PartnerResource>
+            <resourceName>Bianca Menzel</resourceName>
+            <porNo1>POR-0004110</porNo1>
+            <expenseType>Airfare</expenseType>
+            <currencyType>U.S. Dollar</currencyType>
+            <currencyTypeEuro>Euro</currencyTypeEuro>
+        </PartnerResource>
+    </PSAQA>
+
+</PSA>

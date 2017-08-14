@@ -1,0 +1,597 @@
+{
+  "testCases" : [ {
+    "uid" : "8b68db8ccee70387",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503616063,
+      "stop" : 1499503617093,
+      "duration" : 1030
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "75a2b6fd24a5a275",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503616063,
+      "stop" : 1499503617093,
+      "duration" : 1030
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "8a006de19f80c631",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618356,
+      "stop" : 1499503618439,
+      "duration" : 83
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "e6b037c2931d576b",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618356,
+      "stop" : 1499503618439,
+      "duration" : 83
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "565a7a51dcf28bd7",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618487,
+      "stop" : 1499503618548,
+      "duration" : 61
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "8487e3ab339cb6d4",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618487,
+      "stop" : 1499503618548,
+      "duration" : 61
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "12618a6f5fdbee32",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618583,
+      "stop" : 1499503618625,
+      "duration" : 42
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "66b353876950caba",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503618583,
+      "stop" : 1499503618625,
+      "duration" : 42
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "70f60a48f3e4c84f",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499503618722,
+      "stop" : 1499503618728,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "49b165c17572642b",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499503618722,
+      "stop" : 1499503618728,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ce79869c0f1eebd7",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503618767,
+      "stop" : 1499503618946,
+      "duration" : 179
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "fe6e959612bb2f8b",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503618767,
+      "stop" : 1499503618946,
+      "duration" : 179
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "4df0447828075d27",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619005,
+      "stop" : 1499503619043,
+      "duration" : 38
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "f25e306727b0d4ad",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619005,
+      "stop" : 1499503619043,
+      "duration" : 38
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "cf5fff96d008eb40",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619076,
+      "stop" : 1499503619121,
+      "duration" : 45
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "6e3256eed71c458c",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619076,
+      "stop" : 1499503619121,
+      "duration" : 45
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "567357a112f56842",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619148,
+      "stop" : 1499503619185,
+      "duration" : 37
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "56860cc97e79dad5",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503619148,
+      "stop" : 1499503619185,
+      "duration" : 37
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "e383636e2babebee",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504042158,
+      "stop" : 1499504043165,
+      "duration" : 1007
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "9314b75cca1d659",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504042158,
+      "stop" : 1499504043165,
+      "duration" : 1007
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "62c2962570cff95f",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044669,
+      "stop" : 1499504044722,
+      "duration" : 53
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "f4460fc9aa7085e8",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044669,
+      "stop" : 1499504044722,
+      "duration" : 53
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "be83d90fe6f49ea6",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044768,
+      "stop" : 1499504044828,
+      "duration" : 60
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "e349fa5c816c6050",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044768,
+      "stop" : 1499504044828,
+      "duration" : 60
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "1eb58ca59c432aa9",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044865,
+      "stop" : 1499504044914,
+      "duration" : 49
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "4a2101f28aad5c69",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499504044865,
+      "stop" : 1499504044914,
+      "duration" : 49
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "601e77f952663087",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499504045018,
+      "stop" : 1499504045024,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "769f06bbe2536468",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499504045018,
+      "stop" : 1499504045024,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "81a0794efb1a231c",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045068,
+      "stop" : 1499504045244,
+      "duration" : 176
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "2ea9c74610762eed",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045068,
+      "stop" : 1499504045244,
+      "duration" : 176
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "614c723caddb3aad",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045275,
+      "stop" : 1499504045309,
+      "duration" : 34
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "cfb8adb8f2f4935b",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045275,
+      "stop" : 1499504045309,
+      "duration" : 34
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "823ec1f3248fbff1",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045337,
+      "stop" : 1499504045360,
+      "duration" : 23
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "2b6f474b8cfb7e62",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045337,
+      "stop" : 1499504045360,
+      "duration" : 23
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "f5d1513e73d17a4d",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045384,
+      "stop" : 1499504045419,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "f891ac2a9bd0b4c1",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499504045384,
+      "stop" : 1499504045419,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "43cd30150f442395",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499502997308,
+      "stop" : 1499502999109,
+      "duration" : 1801
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "bb6cfc21f8196d04",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499502997308,
+      "stop" : 1499502999109,
+      "duration" : 1801
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "d2ede06f8f02709e",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001023,
+      "stop" : 1499503001181,
+      "duration" : 158
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "15617c9220c4cc85",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001023,
+      "stop" : 1499503001181,
+      "duration" : 158
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "26c8d163871320c4",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001228,
+      "stop" : 1499503001291,
+      "duration" : 63
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "b2a423e7816a46f5",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001228,
+      "stop" : 1499503001291,
+      "duration" : 63
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "ecd09088f87d5329",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001325,
+      "stop" : 1499503001360,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "a0573dd5f14824d3",
+    "name" : "function1Test1",
+    "title" : "First Allure Test case",
+    "time" : {
+      "start" : 1499503001325,
+      "stop" : 1499503001360,
+      "duration" : 35
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "9cc85b0a63e8cfac",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499503001466,
+      "stop" : 1499503001472,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "50d4e315cc826f5a",
+    "name" : "function3Test1",
+    "title" : "Function 3 test 1",
+    "time" : {
+      "start" : 1499503001466,
+      "stop" : 1499503001472,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "af4751121356050c",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001513,
+      "stop" : 1499503001719,
+      "duration" : 206
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "e610bd977505f065",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001513,
+      "stop" : 1499503001719,
+      "duration" : 206
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "51fbe02cabd1610b",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001752,
+      "stop" : 1499503001783,
+      "duration" : 31
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "6825496ca14efd5d",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001752,
+      "stop" : 1499503001783,
+      "duration" : 31
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "f5636d67e76dc2e1",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001816,
+      "stop" : 1499503001844,
+      "duration" : 28
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "ba2965b710fbe0ab",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001816,
+      "stop" : 1499503001844,
+      "duration" : 28
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "9163fe09833f9ef7",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001872,
+      "stop" : 1499503001905,
+      "duration" : 33
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  }, {
+    "uid" : "ef4a8efbbe00ce5a",
+    "name" : "jsoupTestReadHTML",
+    "title" : "Jsoup test read HTML",
+    "time" : {
+      "start" : 1499503001872,
+      "stop" : 1499503001905,
+      "duration" : 33
+    },
+    "severity" : "NORMAL",
+    "status" : "CANCELED"
+  } ]
+}

@@ -1,0 +1,9 @@
+2017-07-09 19:19:49-main--INFO -com.neerajProject.pages.TestBase:Hi logging here
+  2017-07-09 19:19:49-main--ERROR-com.neerajProject.pages.TestBase:Hi logging here Error
+  2017-07-09 19:19:49-main--INFO -com.neerajProject.pages.TestBase:In Facebook
+  2017-07-09 19:19:50-main--INFO -com.neerajProject.pages.TestBase:Navigating to -->https://www.facebook.com/
+  2017-07-09 19:20:00-main--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load with URL---->facebook.com
+  2017-07-09 19:20:00-main--INFO -com.neerajProject.pages.TestBase:Clicking on Element-->[[ChromeDriver: chrome on WIN8_1 (684d85ac92a888fae091f66d46d96c6c)] -> xpath: .//input[@name='firstname']]
+  2017-07-09 19:20:01-main--INFO -com.neerajProject.pages.TestBase:Setting Text Steve for WebElement-->[[ChromeDriver: chrome on WIN8_1 (684d85ac92a888fae091f66d46d96c6c)] -> xpath: .//input[@name='firstname']]
+  2017-07-09 19:20:08-main--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load with URL---->gettingstarted
+  
