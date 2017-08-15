@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CS_Regression]" parallel="tests">
+  <parameter name="Device_ID" value="192.168.1.4:5555"/>
+  <test name="Device_MotoXplay(failed)" parallel="tests">
+    <parameter name="Device_ID" value="ZY2227L635"/>
+    <classes>
+      <class name="testCases.Test6">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testJabong1"/>
+          <include name="testJabong2"/>
+        </methods>
+      </class> <!-- testCases.Test6 -->
+      <class name="testCases.Test7">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Test7 -->
+    </classes>
+  </test> <!-- Device_MotoXplay(failed) -->
+  <test name="Device_MotoG(failed)" parallel="tests">
+    <parameter name="Device_ID" value="192.168.1.4:5555"/>
+    <classes>
+      <class name="testCases.Test6">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Test6 -->
+      <class name="testCases.Test7">
+        <methods>
+          <include name="testJabong1"/>
+          <include name="tearDown"/>
+          <include name="testJabong2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Test7 -->
+    </classes>
+  </test> <!-- Device_MotoG(failed) -->
+</suite> <!-- Failed suite [CS_Regression] -->

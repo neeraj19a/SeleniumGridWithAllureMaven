@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CS_Regression">
+              <span class="suite-name border-failed">CS_Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CS_Regression">
+                    <span>E:\MyNewFrameworkGrid\MyNewFramework\src\test\java\testCases\appium1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CS_Regression">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CS_Regression">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CS_Regression">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CS_Regression">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CS_Regression">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CS_Regression">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 2 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CS_Regression" class="hide-methods failed suite-CS_Regression"> (hide)</a> <!-- hide-methods failed suite-CS_Regression -->
+                      <a href="#" panel-name="suite-CS_Regression" class="show-methods failed suite-CS_Regression"> (show)</a> <!-- show-methods failed suite-CS_Regression -->
+                    </span>
+                    <div class="method-list-content failed suite-CS_Regression">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CS_Regression" title="testCases.Test6" hash-for-method="testJabong1">testJabong1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CS_Regression" title="testCases.Test7" hash-for-method="testJabong1">testJabong1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CS_Regression -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-CS_Regression" class="hide-methods skipped suite-CS_Regression"> (hide)</a> <!-- hide-methods skipped suite-CS_Regression -->
+                      <a href="#" panel-name="suite-CS_Regression" class="show-methods skipped suite-CS_Regression"> (show)</a> <!-- show-methods skipped suite-CS_Regression -->
+                    </span>
+                    <div class="method-list-content skipped suite-CS_Regression">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CS_Regression" title="testCases.Test6" hash-for-method="testJabong2">testJabong2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CS_Regression" title="testCases.Test7" hash-for-method="testJabong2">testJabong2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-CS_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CS_Regression" class="panel CS_Regression">
+          <div class="suite-CS_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Test6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJabong1">
+                  </a> <!-- testJabong1 -->
+                  <span class="method-name">testJabong1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 274 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;
+System info: host: &apos;Neeraj&apos;, ip: &apos;192.168.59.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_67&apos;
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 3a947d54-0b9b-494c-a643-fe022fe47ef1
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=ZY2227L635, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=ZY2227L635, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=ZY2227L635}, locationContextEnabled=false, platformVersion=6.0.1, databaseEnabled=false, deviceName=ZY2227L635, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at testCases.Test6.testJabong1(Test6.java:88)
+	at com.neerajProject.pages.AppiumTestBase.run(AppiumTestBase.java:90)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CS_Regression-class-failed -->
+          <div class="suite-CS_Regression-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Test7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJabong1">
+                  </a> <!-- testJabong1 -->
+                  <span class="method-name">testJabong1</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 379 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;
+System info: host: &apos;Neeraj&apos;, ip: &apos;192.168.59.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_67&apos;
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 2d5ed2a6-c1c5-46ed-b6d0-373a1d7d3732
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=192.168.1.4:5555, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=192.168.1.4:5555, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=192.168.1.4:5555}, locationContextEnabled=false, platformVersion=5.1, databaseEnabled=false, deviceName=192.168.1.4:5555, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+	at testCases.Test7.testJabong1(Test7.java:87)
+	at com.neerajProject.pages.AppiumTestBase.run(AppiumTestBase.java:90)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CS_Regression-class-failed -->
+          <div class="suite-CS_Regression-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Test6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJabong2">
+                  </a> <!-- testJabong2 -->
+                  <span class="method-name">testJabong2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CS_Regression-class-skipped -->
+          <div class="suite-CS_Regression-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.Test7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJabong2">
+                  </a> <!-- testJabong2 -->
+                  <span class="method-name">testJabong2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CS_Regression-class-skipped -->
+        </div> <!-- panel CS_Regression -->
+        <div panel-name="test-xml-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\MyNewFrameworkGrid\MyNewFramework\src\test\java\testCases\appium1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;CS_Regression&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Device_MotoXplay&quot;&gt;
+    &lt;parameter name=&quot;Device_ID&quot; value=&quot;ZY2227L635&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Test6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Device_MotoXplay --&gt;
+  &lt;test name=&quot;Device_MotoG&quot;&gt;
+    &lt;parameter name=&quot;Device_ID&quot; value=&quot;192.168.1.4:5555&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Test7&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Device_MotoG --&gt;
+&lt;/suite&gt; &lt;!-- CS_Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CS_Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Device_MotoXplay (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Device_MotoG (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CS_Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CS_Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CS_Regression');
+function tableData_CS_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testJabong1')
+data.setCell(0, 2, 'testCases.Test6')
+data.setCell(0, 3, 41104);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testJabong1')
+data.setCell(1, 2, 'testCases.Test7')
+data.setCell(1, 3, 37300);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testJabong2')
+data.setCell(2, 2, 'testCases.Test7')
+data.setCell(2, 3, 146);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testJabong2')
+data.setCell(3, 2, 'testCases.Test6')
+data.setCell(3, 3, 77);
+window.suiteTableData['CS_Regression']= { tableData: data, tableDiv: 'times-div-CS_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-CS_Regression">
+              </div> <!-- times-div-CS_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CS_Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CS_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(192.168.1.4:5555)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ZY2227L635)</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testJabong1</span>
+                <span class="method-start">22747 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testJabong1</span>
+                <span class="method-start">30621 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test6</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=testJabong1 on [Test6 passed=0 failed=0 skipped=0] status=FAILURE method=Test6.test...)</span>
+                <span class="method-start">64066 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test7</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=testJabong1 on [Test7 passed=0 failed=0 skipped=0] status=FAILURE method=Test7.test...)</span>
+                <span class="method-start">67949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(ZY2227L635)</span>
+                <span class="method-start">69622 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(192.168.1.4:5555)</span>
+                <span class="method-start">72173 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test6</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testJabong2</span>
+                <span class="method-start">89761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testJabong2 on [Test6 passed=0 failed=0 skipped=0] status=SKIP method=Test6.testJab...)</span>
+                <span class="method-start">89875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test7</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testJabong2</span>
+                <span class="method-start">95516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testJabong2 on [Test7 passed=0 failed=0 skipped=0] status=SKIP method=Test7.testJab...)</span>
+                <span class="method-start">95720 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -60,8 +60,8 @@ public class InitiateDriver {
 
 
     }
-
-   /* public InitiateDriver(String device,String port) throws MalformedURLException {
+/*
+   public InitiateDriver(String device,String port) throws MalformedURLException {
          if (System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase(device) &&System.getProperty(port).equalsIgnoreCase(port)) {
             setupcapabilities(System.getProperty("Device_ID"));
             appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
@@ -72,8 +72,21 @@ public class InitiateDriver {
             appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
 
         }
+    }*/
+
+
+    public InitiateDriver(String device,String port) throws MalformedURLException {
+        if (System.getProperty("browser").equalsIgnoreCase("ANDROID")) {
+            setupcapabilities(device);
+            appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
+
+        }/*
+        else if(System.getProperty("browser").equalsIgnoreCase("ANDROID")) {
+            setupcapabilities(device);
+            appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
+
+        }*/
     }
-   */
 
 
    public AppiumDriver getAppiumDriver()

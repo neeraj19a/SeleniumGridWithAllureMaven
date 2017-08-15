@@ -13,6 +13,7 @@ com\neerajProject\pages\TestBase$3.class
 utilityFiles\Retry.class
 utilityFiles\PageBase$3.class
 com\neerajProject\pages\TestBase$4.class
+com\neerajProject\pages\AppiumTestBase.class
 utilityFiles\PageBase$2.class
 utilityFiles\PageBase.class
 com\neerajProject\pages\InitiateDriver.class

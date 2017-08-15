@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="102.444" tests="6" errors="0" skipped="2" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="browser" value="Android"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\MyNewFrameworkGrid\MyNewFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="env" value="test"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\MyNewFrameworkGrid\MyNewFramework"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\NEERAJ\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Perl\site\bin;C:\Perl\bin;C:\Program Files\Java\jre7\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Apache\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.7.0_67\bin;C:\Users\NEERAJ\Desktop\adt-bundle-windows-x86_64-20140321\sdk\tools;C:\Users\NEERAJ\Desktop\adt-bundle-windows-x86_64-20140321\sdk\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\PuTTY\;E:\python.exe;E:\Scripts\;E:\;C:\Users\NEERAJ\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files\Boot2Docker for Windows;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\NEERAJ"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="suitexml" value="E:\MyNewFrameworkGrid\MyNewFramework\src\test\java\testCases\appium1.xml"/>
+    <property name="user.name" value="NEERAJ"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dsuitexml=E:\MyNewFrameworkGrid\MyNewFramework\src\test\java\testCases\appium1.xml -Denv=test -Dbrowser=Android -Dmaven.test.failure.ignore=true site"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testJabong1 on [Test6 passed=0 failed=0 skipped=0]" classname="testCases.Test6" time="33.409">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 274 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;&#10;System info: host: &apos;Neeraj&apos;, ip: &apos;192.168.59.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_67&apos;&#10;*** Element info: {Using=id, value=rec_card_image}&#10;Session ID: 3a947d54-0b9b-494c-a643-fe022fe47ef1&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=ZY2227L635, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=ZY2227L635, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=ZY2227L635}, locationContextEnabled=false, platformVersion=6.0.1, databaseEnabled=false, deviceName=ZY2227L635, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 274 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 3a947d54-0b9b-494c-a643-fe022fe47ef1
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=ZY2227L635, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=ZY2227L635, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=ZY2227L635}, locationContextEnabled=false, platformVersion=6.0.1, databaseEnabled=false, deviceName=ZY2227L635, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at testCases.Test6.testJabong1(Test6.java:88)
+</failure>
+    <system-out><![CDATA[Device is192.168.1.4:5555
+Port is4725
+Device isZY2227L635
+Port is4726
+App launched Test Class 6
+App launched Test Class 7
+==========Found failure in method---->  testJabong1  <----- Taking screenshot============
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (com.neerajProject.pages.TestBase).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="testJabong1 on [Test7 passed=0 failed=0 skipped=0]" classname="testCases.Test7" time="37.274">
+    <failure message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 379 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.47.2&apos;, revision: &apos;4d972c01cab1304452627f837654326a11eb92fe&apos;, time: &apos;2015-09-24 09:17:17&apos;&#10;System info: host: &apos;Neeraj&apos;, ip: &apos;192.168.59.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_67&apos;&#10;*** Element info: {Using=id, value=rec_card_image}&#10;Session ID: 2d5ed2a6-c1c5-46ed-b6d0-373a1d7d3732&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=192.168.1.4:5555, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=192.168.1.4:5555, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=192.168.1.4:5555}, locationContextEnabled=false, platformVersion=5.1, databaseEnabled=false, deviceName=192.168.1.4:5555, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 379 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 2d5ed2a6-c1c5-46ed-b6d0-373a1d7d3732
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=192.168.1.4:5555, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=192.168.1.4:5555, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=192.168.1.4:5555}, locationContextEnabled=false, platformVersion=5.1, databaseEnabled=false, deviceName=192.168.1.4:5555, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at testCases.Test7.testJabong1(Test7.java:87)
+</failure>
+    <system-out><![CDATA[==========Found failure in method---->  testJabong1  <----- Taking screenshot============
+==========Found failure in method---->  testJabong1  <----- Taking screenshot============
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown on [Test6 passed=0 failed=0 skipped=0]" classname="testCases.Test6" time="38.951">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[==========Found failure in method---->  testJabong1  <----- Taking screenshot============
+Closing Browser
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown on [Test7 passed=0 failed=0 skipped=0]" classname="testCases.Test7" time="41.503">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Device isZY2227L635
+Port is4726
+Closing Browser
+]]></system-out>
+  </testcase>
+  <testcase name="testJabong2 on [Test6 passed=0 failed=0 skipped=0]" classname="testCases.Test6" time="0">
+    <skipped/>
+    <system-out><![CDATA[Device is192.168.1.4:5555
+Port is4725
+]]></system-out>
+  </testcase>
+  <testcase name="testJabong2 on [Test7 passed=0 failed=0 skipped=0]" classname="testCases.Test7" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

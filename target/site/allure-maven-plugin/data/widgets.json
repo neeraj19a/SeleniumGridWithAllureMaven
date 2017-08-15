@@ -1,0 +1,80 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 10,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 4,
+        "failed" : 0,
+        "broken" : 6
+      },
+      "time" : {
+        "start" : 1502808511449,
+        "stop" : 1502808583927,
+        "duration" : 72478
+      }
+    },
+    "defects" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "count" : 2,
+        "uid" : "bd2c56f62c5b2e4f",
+        "message" : "NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 379 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'\nSystem info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'\n*** Element info: {Using=id, value=rec_card_image}\nSession ID: 2d5ed2a6-c1c5-46ed-b6d0-373a1d7d3732\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{automationName=Appium, platform=LINUX, app=E:\\MyNewFrameworkGrid\\MyNewFramework\\..\\MyNewFramework\\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=192.168.1.4:5555, desired={automationName=Appium, app=E:\\MyNewFrameworkGrid\\MyNewFramework\\..\\MyNewFramework\\com.tinder_4.5.5.apk, platformName=Android, deviceName=192.168.1.4:5555, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=192.168.1.4:5555}, locationContextEnabled=false, platformVersion=5.1, databaseEnabled=false, deviceName=192.168.1.4:5555, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]",
+        "status" : "BROKEN"
+      }, {
+        "count" : 2,
+        "uid" : "a805154e8bd1285",
+        "message" : "NullPointerException: null",
+        "status" : "BROKEN"
+      }, {
+        "count" : 2,
+        "uid" : "4fe3290938daa4a3",
+        "message" : "NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 274 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'\nSystem info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'\n*** Element info: {Using=id, value=rec_card_image}\nSession ID: 3a947d54-0b9b-494c-a643-fe022fe47ef1\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities [{automationName=Appium, platform=LINUX, app=E:\\MyNewFrameworkGrid\\MyNewFramework\\..\\MyNewFramework\\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=ZY2227L635, desired={automationName=Appium, app=E:\\MyNewFrameworkGrid\\MyNewFramework\\..\\MyNewFramework\\com.tinder_4.5.5.apk, platformName=Android, deviceName=ZY2227L635, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=ZY2227L635}, locationContextEnabled=false, platformVersion=6.0.1, databaseEnabled=false, deviceName=ZY2227L635, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "uid" : "ff5183b7cea7ec10",
+        "title" : "CS_Regression : Device_MotoG[Device_ID=192.168.1.4:5555]",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 2,
+          "failed" : 0,
+          "broken" : 3
+        }
+      }, {
+        "uid" : "1d9361d6ca9d851a",
+        "title" : "CS_Regression : Device_MotoXplay[Device_ID=ZY2227L635]",
+        "statistic" : {
+          "total" : 5,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 2,
+          "failed" : 0,
+          "broken" : 3
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 4,
+          "failed" : 0,
+          "broken" : 6
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

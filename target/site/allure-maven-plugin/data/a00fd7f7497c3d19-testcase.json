@@ -1,0 +1,62 @@
+{
+  "uid" : "a00fd7f7497c3d19",
+  "name" : "testJabong2 on [Test7 passed=0 failed=0 skipped=0]",
+  "title" : "Test jabong 2 on  [Test7 passed=0 failed=0 skipped=0]",
+  "time" : {
+    "start" : 1502808583874,
+    "stop" : 1502808583927,
+    "duration" : 53
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : ": Skipped due to dependency on other skipped or failed test methods",
+    "stackTrace" : "ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:373)\n\tat ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:183)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1691)\n\tat org.testng.internal.Invoker.runTestListeners(Invoker.java:1683)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:697)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:773)\n\tat org.testng.TestRunner.run(TestRunner.java:623)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:357)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ff5183b7cea7ec10",
+    "name" : "CS_Regression : Device_MotoG[Device_ID=192.168.1.4:5555]",
+    "title" : "CS_Regression : Device_MotoG[Device_ID=192.168.1.4:5555]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testClass",
+    "value" : "testCases.Test7"
+  }, {
+    "name" : "host",
+    "value" : "Neeraj"
+  }, {
+    "name" : "suite-name",
+    "value" : "CS_Regression : Device_MotoG[Device_ID=192.168.1.4:5555]"
+  }, {
+    "name" : "thread",
+    "value" : "10804@Neeraj.TestNG(14)"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "testJabong2"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testSuite",
+    "value" : "CS_Regression"
+  }, {
+    "name" : "suite-title",
+    "value" : "CS_Regression : Device_MotoG[Device_ID=192.168.1.4:5555]"
+  }, {
+    "name" : "testGroup",
+    "value" : "Device_MotoG"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 102.444 sec <<< FAILURE! - in TestSuite
+testJabong1 on [Test6 passed=0 failed=0 skipped=0](testCases.Test6)  Time elapsed: 33.409 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 274 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 3a947d54-0b9b-494c-a643-fe022fe47ef1
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=ZY2227L635, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=ZY2227L635, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=ZY2227L635}, locationContextEnabled=false, platformVersion=6.0.1, databaseEnabled=false, deviceName=ZY2227L635, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at testCases.Test6.testJabong1(Test6.java:88)
+
+testJabong1 on [Test7 passed=0 failed=0 skipped=0](testCases.Test7)  Time elapsed: 37.274 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 379 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.2', revision: '4d972c01cab1304452627f837654326a11eb92fe', time: '2015-09-24 09:17:17'
+System info: host: 'Neeraj', ip: '192.168.59.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_67'
+*** Element info: {Using=id, value=rec_card_image}
+Session ID: 2d5ed2a6-c1c5-46ed-b6d0-373a1d7d3732
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{automationName=Appium, platform=LINUX, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, javascriptEnabled=true, browserName=Android, networkConnectionEnabled=true, udid=192.168.1.4:5555, desired={automationName=Appium, app=E:\MyNewFrameworkGrid\MyNewFramework\..\MyNewFramework\com.tinder_4.5.5.apk, platformName=Android, deviceName=192.168.1.4:5555, app-package=com.tinder, app-activity=com.tinder.activities.ActivityMain, udid=192.168.1.4:5555}, locationContextEnabled=false, platformVersion=5.1, databaseEnabled=false, deviceName=192.168.1.4:5555, platformName=Android, app-package=com.tinder, webStorageEnabled=false, app-activity=com.tinder.activities.ActivityMain, warnings={}, takesScreenshot=true}]
+	at testCases.Test7.testJabong1(Test7.java:87)
+
+tearDown on [Test6 passed=0 failed=0 skipped=0](testCases.Test6)  Time elapsed: 38.951 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+tearDown on [Test7 passed=0 failed=0 skipped=0](testCases.Test7)  Time elapsed: 41.503 sec  <<< FAILURE!
+java.lang.NullPointerException
+

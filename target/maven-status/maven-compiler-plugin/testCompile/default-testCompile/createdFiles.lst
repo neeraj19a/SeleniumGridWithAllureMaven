@@ -1,6 +1,8 @@
 testCases\Test2.class
-testCases\Test3.class
 apiTestCases\RestAPI.class
+testCases\Test3.class
 testCases\Test4.class
-testCases\Test5.class
+testCases\Test7.class
 testCases\Test1.class
+testCases\Test6.class
+testCases\Test5.class

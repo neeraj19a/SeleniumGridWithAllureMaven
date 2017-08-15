@@ -6,7 +6,7 @@
     <test name="Device_MotoXplay">
         <parameter name = "Device_ID" value="ZY2227L635" />
         <classes>
-            <class name="testCases.Test5" />
+            <class name="testCases.Test6" />
     <!--        <methods>
 
                 <include name= "testTinder"/>
@@ -17,7 +17,7 @@
     <test name="Device_MotoG">
         <parameter name = "Device_ID" value="192.168.1.4:5555" />
         <classes>
-            <class name="testCases.Test5" />
+            <class name="testCases.Test7" />
 <!--
             <methods>
                 <include name="testTinder"/>
