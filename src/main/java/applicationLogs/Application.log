@@ -1,12 +1,2 @@
-2017-08-15 11:19:12-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:testCases.Test1
-  2017-08-15 11:19:12-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Executing class : testCases.Test1, test case number : 1
-  2017-08-15 11:19:15-pool-1-thread-1--INFO -testCases.Test1:Hi logging here
-  2017-08-15 11:19:15-pool-1-thread-1--ERROR-testCases.Test1:Hi logging here Error
-  2017-08-15 11:19:15-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Driver in Home Page LibRemoteWebDriver: firefox on WINDOWS (f2319f73-50a4-4eb5-949d-aee0ba957766)
-  2017-08-15 11:19:15-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Now hereRemoteWebDriver: firefox on WINDOWS (f2319f73-50a4-4eb5-949d-aee0ba957766)
-  2017-08-15 11:19:15-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:In Facebook
-  2017-08-15 11:19:15-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Navigating to -->https://www.facebook.com/
-  2017-08-15 11:19:24-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:testCases.Test2
-  2017-08-15 11:19:24-pool-1-thread-2--INFO -com.neerajProject.pages.TestBase:Executing class : testCases.Test2, test case number : 1
-  2017-08-15 11:19:24-pool-1-thread-1--INFO -com.neerajProject.pages.TestBase:Waiting for Page to Load 
+2017-08-15 18:29:02-TestNG--INFO -com.neerajProject.pages.TestBase:Here is appium Driver-->AndroidDriver: Android on LINUX (45af9dd2-103f-4bdc-9706-ac0afee6b24b)
   

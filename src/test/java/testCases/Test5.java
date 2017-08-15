@@ -4,6 +4,8 @@ import com.neerajProject.pages.TestBase;
 import io.appium.java_client.TouchAction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -11,7 +13,23 @@ import java.io.IOException;
 /**
  * Created by NEERAJ on 8/14/2017.
  */
+
+
+
 public class Test5 extends TestBase{
+
+
+/*
+
+    @DataProvider(name="devices")
+    public Object[][] device_id(){
+        return new  Object[][]{
+                {"192.168.1.4:5555","4725"},
+                {"ZY2227L635","4726"}
+
+        };
+    }
+*/
 
     @Test
     public void testTinder(String Device_ID) throws InterruptedException, IOException {

@@ -17,9 +17,7 @@ import org.testng.IHookCallBack;
 import org.testng.IHookable;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import ru.yandex.qatools.allure.annotations.Attachment;
 import utilityFiles.PageBase;
 
@@ -42,6 +40,28 @@ public class TestBase extends TestListenerAdapter implements IHookable {
     public org.apache.log4j.Logger Log = Logger.getLogger(TestBase.class);
     int testCaseCount = 0;
     private List<RemoteWebDriver> newDriversList;
+
+
+
+    /*@DataProvider(name="devices")
+    public Object[][] device_id(){
+        return new  Object[][]{
+                {"192.168.1.4:5555","4725"},
+                {"ZY2227L635","4726"}
+
+        };
+    }
+    @Factory(dataProvider = "devices")
+    public  void connection(String device, String port) {
+        try {
+            InitiateDriver initiateDriver=new InitiateDriver(device,port);
+            appiumDriver=initiateDriver.getAppiumDriver();
+            Log.info("Here is appium Driver-->"+appiumDriver);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+    }
+*/
 
 
     @BeforeMethod(alwaysRun = true)

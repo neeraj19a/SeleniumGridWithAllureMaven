@@ -109,6 +109,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <env>test</env>
         <browser>firefox</browser>
+        <port></port>
     </properties>
 
     <dependencies>

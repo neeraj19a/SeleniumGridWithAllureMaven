@@ -25,13 +25,12 @@ public class InitiateDriver {
     DesiredCapabilities cap = new DesiredCapabilities();
 
 
-    @Factory(dataProvider = "parallelDp")
     public InitiateDriver() throws MalformedURLException {
         if (System.getProperty("browser").equalsIgnoreCase("Firefox")) {
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), getBrowserCapabilities("firefox"));
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        } else if (System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase("ZY2227L635")) {
+        } else if (System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase("ZY2227L635") &&System.getProperty("port").equalsIgnoreCase("4726")) {
             setupcapabilities(System.getProperty("Device_ID"));
             appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:4726/wd/hub"), cap);
 
@@ -47,7 +46,13 @@ public class InitiateDriver {
             driver = new AndroidDriver(new URL("http://127.0.0.1:4444/wd/hub"), desiredCapabilities);
 */
 
-        } else {
+        }
+        else if(System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase("192.168.1.4:5555") &&System.getProperty("port").equalsIgnoreCase("4725")) {
+            setupcapabilities(System.getProperty("Device_ID"));
+            appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:4725/wd/hub"), cap);
+
+        }
+        else {
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), getBrowserCapabilities("Chrome"));
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -56,7 +61,22 @@ public class InitiateDriver {
 
     }
 
-    public AppiumDriver getAppiumDriver()
+   /* public InitiateDriver(String device,String port) throws MalformedURLException {
+         if (System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase(device) &&System.getProperty(port).equalsIgnoreCase(port)) {
+            setupcapabilities(System.getProperty("Device_ID"));
+            appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
+
+        }
+        else if(System.getProperty("browser").equalsIgnoreCase("ANDROID") && System.getProperty("Device_ID").equalsIgnoreCase(device) &&System.getProperty(port).equalsIgnoreCase("4725")) {
+            setupcapabilities(System.getProperty("Device_ID"));
+            appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), cap);
+
+        }
+    }
+   */
+
+
+   public AppiumDriver getAppiumDriver()
     {
         if (appiumDriver == null)
             throw new RuntimeException("We have not instantiated the driver.");
