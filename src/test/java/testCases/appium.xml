@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Specify the test suite name -->
+<suite name="CS_Regression" annotations="JDK" parallel="tests" thread-count="2">
+
+    <test name="Device_MotoXplay">
+        <parameter name = "Device_ID" value="ZY2227L635" />
+        <classes>
+            <class name="testCases.Test5" />
+    <!--        <methods>
+
+                <include name= "testTinder"/>
+            </methods>
+    -->    </classes>
+    </test>
+<!--
+    <test name="Device_MotoG">
+        <parameter name = "Device_ID" value="192.168.1.4:5555" />
+        <classes>
+            <class name="com.gurpreet.project.Tinder" />
+            <methods>
+                <include name="testTinder"/>
+            </methods>
+        </classes>
+    </test>-->
+</suite>

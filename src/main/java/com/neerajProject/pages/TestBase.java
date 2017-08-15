@@ -1,6 +1,7 @@
 package com.neerajProject.pages;
 
 import com.google.common.base.Function;
+import io.appium.java_client.AppiumDriver;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.*;
@@ -35,6 +36,8 @@ public class TestBase extends TestListenerAdapter implements IHookable {
 
     private WebElement webElem;
     public RemoteWebDriver driver;
+    public AppiumDriver appiumDriver;
+
 
     public org.apache.log4j.Logger Log = Logger.getLogger(TestBase.class);
     int testCaseCount = 0;
@@ -60,14 +63,20 @@ public class TestBase extends TestListenerAdapter implements IHookable {
         org.apache.log4j.BasicConfigurator.configure();
         PropertyConfigurator.configure(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\log4j.properties");
 
-        InitiateDriver initiateDriver = new InitiateDriver();
-        driver = initiateDriver.getDriver();
-        newDriversList = new ArrayList<RemoteWebDriver>();
-        Log.info(this.getClass().getName());
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        Log.info("Executing class : " + this.getClass().getCanonicalName() + ", test case number : " + ++testCaseCount);
-
+        if(!System.getProperty("browser").equalsIgnoreCase("ANDROID")) {
+            InitiateDriver initiateDriver = new InitiateDriver();
+            driver = initiateDriver.getDriver();
+            newDriversList = new ArrayList<RemoteWebDriver>();
+            Log.info(this.getClass().getName());
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+            Log.info("Executing class : " + this.getClass().getCanonicalName() + ", test case number : " + ++testCaseCount);
+        }
+        else if(System.getProperty("browser").equalsIgnoreCase("ANDROID")){
+            InitiateDriver initiateDriver = new InitiateDriver();
+            appiumDriver=initiateDriver.getAppiumDriver();
+            Log.info("Here is appium Driver-->"+appiumDriver);
+        }
 
           /*  try {
                 Log.info("In Try Block");
